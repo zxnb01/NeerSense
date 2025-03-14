@@ -1,16 +1,6 @@
-# neersense
+# Neersense
 
-A new Flutter project.
+NeerSense is an IoT-based smart water monitoring system designed to address these challenges by integrating advanced sensors, cloud-based analytics, and AI-powered insights. The system provides real-time data on household water usage, detects leaks, and assesses water quality by monitoring key parameters such as pH, turbidity, and total dissolved solids (TDS). Through a user-friendly mobile application, NeerSense empowers individuals with actionable recommendations to optimize water consumption and ensure safe water quality.
+The implementation of NeerSense aligns with the goal of promoting sustainable water management by minimizing wastage, improving efficiency, and enhancing user awareness. By leveraging IoT and AI technologies, this system offers a scalable solution that can be expanded beyond households to industrial and agricultural applications, contributing to a more responsible and sustainable approach to water conservation.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Prototype:
