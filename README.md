@@ -4,3 +4,4 @@ NeerSense is an IoT-based smart water monitoring system designed to address thes
 The implementation of NeerSense aligns with the goal of promoting sustainable water management by minimizing wastage, improving efficiency, and enhancing user awareness. By leveraging IoT and AI technologies, this system offers a scalable solution that can be expanded beyond households to industrial and agricultural applications, contributing to a more responsible and sustainable approach to water conservation.
 
 Prototype:
+[https://github.com/user-attachments/assets/1e79f8df-6083-4353-9bd9-c49c3925302a]
