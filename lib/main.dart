@@ -274,7 +274,7 @@ class WaterConservationTips extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset(tip["image"]!, height: 100),
+            Image.asset(tip["image"]!, height: 130),
             SizedBox(height: 5),
             Text(tip["title"]!,
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
