@@ -163,8 +163,8 @@ class AnalyticsPage extends StatelessWidget {
     // Sample water consumption history data
     Map<String, List<double>> historyData = {
       "Kitchen": [25, 30, 28, 35, 40],
-      "Bathroom": [40, 50, 45, 55, 60],
-      "Garden": [15, 18, 20, 22, 25],
+      "Bathroom": [40, 12, 45, 55, 30],
+      "Garden": [5, 18, 20, 22, 10],
     };
 
     List<String> days = ["Mon", "Tue", "Wed", "Thu", "Fri"];
@@ -222,36 +222,4 @@ class AnalyticsPage extends StatelessWidget {
       },
     );
   }
-
-  // void _showHistoryDialog(BuildContext context, String category) {
-  //   // Sample data for water consumption history
-  //   Map<String, List<String>> historyData = {
-  //     "Kitchen": ["Monday: 25L", "Tuesday: 30L", "Wednesday: 28L"],
-  //     "Bathroom": ["Monday: 40L", "Tuesday: 50L", "Wednesday: 45L"],
-  //     "Garden": ["Monday: 15L", "Tuesday: 18L", "Wednesday: 20L"],
-  //   };
-
-  //   showDialog(
-  //     context: context,
-  //     builder: (context) {
-  //       return AlertDialog(
-  //         title: Text("$category Usage History"),
-  //         content: Column(
-  //           mainAxisSize: MainAxisSize.min,
-  //           children: historyData[category]
-  //                   ?.map(
-  //                       (entry) => Text(entry, style: TextStyle(fontSize: 16)))
-  //                   .toList() ??
-  //               [Text("No Data Available")],
-  //         ),
-  //         actions: [
-  //           TextButton(
-  //             onPressed: () => Navigator.pop(context),
-  //             child: Text("Close"),
-  //           ),
-  //         ],
-  //       );
-  //     },
-  //   );
-  // }
 }

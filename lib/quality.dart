@@ -144,10 +144,39 @@ class WaterQualityScreen extends StatelessWidget {
     );
   }
 
+  // Widget _buildActionButtons(BuildContext context) {
+  //   return SingleChildScrollView( // Enables horizontal scrolling
+  //     child: ListView(
+  //     scrollDirection: Axis.horizontal,
+  //       children: [
+  //         _buildActionButton(
+  //           context,
+  //           icon: Icons.science,
+  //           label: "Request Test",
+  //           message: "Requesting Water Test...",
+  //         ),
+  //         _buildActionButton(
+  //           context,
+  //           icon: Icons.phone,
+  //           label: "Call Plumber",
+  //           message: "Calling Plumber...",
+  //         ),
+  //         _buildActionButton(
+  //           context,
+  //           icon: Icons.shopping_cart,
+  //           label: "Buy Products",
+  //           message: "Opening Store...",
+  //         ),
+  //         // Add more buttons here if needed
+  //       ],
+  //     ),
+  //   );
+  // }
   Widget _buildActionButtons(BuildContext context) {
-    return SingleChildScrollView(
-      scrollDirection: Axis.horizontal, // Enables horizontal scrolling
-      child: Row(
+    return Container(
+      height: 50, // Ensures a fixed height for proper scrolling
+      child: ListView(
+        scrollDirection: Axis.horizontal,
         children: [
           _buildActionButton(
             context,
@@ -164,10 +193,9 @@ class WaterQualityScreen extends StatelessWidget {
           _buildActionButton(
             context,
             icon: Icons.shopping_cart,
-            label: "Buy Filter",
+            label: "Buy Products",
             message: "Opening Store...",
           ),
-          // Add more buttons here if needed
         ],
       ),
     );
@@ -179,7 +207,7 @@ class WaterQualityScreen extends StatelessWidget {
       required String message}) {
     return Padding(
       padding:
-          EdgeInsets.symmetric(horizontal: 8), // Adds spacing between buttons
+          EdgeInsets.symmetric(horizontal: 2), // Adds spacing between buttons
       child: ElevatedButton.icon(
         onPressed: () {
           ScaffoldMessenger.of(context)

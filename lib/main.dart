@@ -171,17 +171,21 @@ Widget _buildBottomNavBar(BuildContext context) {
             },
           ),
           IconButton(
-            icon: Icon(Icons.home, color: Colors.green),
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => AnalyticsPage()),
-              );
-            },
-          ),
+              icon: Icon(Icons.home, color: Colors.green),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => MyApp()),
+                );
+              }),
           IconButton(
-              icon: Icon(Icons.apartment, color: Colors.blue),
-              onPressed: () {}),
+              icon: Icon(Icons.analytics, color: Colors.blue),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => AnalyticsPage()),
+                );
+              }),
           IconButton(
               icon: Icon(Icons.person, color: Colors.purple),
               onPressed: () {
@@ -270,7 +274,7 @@ class WaterConservationTips extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset(tip["image"]!, height: 90), // Add proper image path
+            Image.asset(tip["image"]!, height: 100),
             SizedBox(height: 5),
             Text(tip["title"]!,
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
