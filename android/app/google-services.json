@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "604213725049",
+    "firebase_url": "https://neersense-8780a-default-rtdb.firebaseio.com",
+    "project_id": "neersense-8780a",
+    "storage_bucket": "neersense-8780a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604213725049:android:089f6386f226ad1b3f51a8",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-CVwljQeaqms7xibT4DwfWxJlEJVzLKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604213725049:android:62d0a3ee8d1b1c5b3f51a8",
+        "android_client_info": {
+          "package_name": "com.example.neersense"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-CVwljQeaqms7xibT4DwfWxJlEJVzLKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
